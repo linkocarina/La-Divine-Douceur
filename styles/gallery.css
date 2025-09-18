@@ -1,0 +1,69 @@
+#gallery{
+    background-color: var(--bg2-color);
+
+    header{
+        padding-top: 8.5rem;
+        padding-bottom: 2rem;
+        
+        text-align: center;
+        h2{
+            font: var(--text-lg-bold);
+            color: var(--color-primary);
+            padding-bottom: 0.5rem;
+        }
+
+        p{
+            font: 300 1.1rem/1.5 var(--font-family-text);
+            color: var(--text-primary-color);
+        }
+
+
+    }
+
+    figure{
+        display: grid;
+        grid-template-areas: 
+        "div div div"
+        "div div div";
+        gap: 1.5rem;
+
+        div{
+            border-radius: .75rem;
+            overflow: hidden;
+            border: 0.5px solid var(--border-color) ;
+            width: 29rem;
+            height: 23rem;
+            margin-left: 12%;
+
+            img{
+            
+            object-fit: cover;
+            width: 29rem;
+            height: 12rem;
+
+        }
+
+        
+
+            h3{
+                font: 700 1rem/normal var(--font-family-text);
+                padding: .75rem; 
+            }
+
+            p{
+                font: var(--text-sm);
+                color: var(--text-secondary-color);
+                padding-left: 0.75rem;
+            }
+
+            h2{
+                font: var(--text-preco);
+                color: var(--color-primary);
+                padding-top: .75rem;
+                padding-left: .75rem;
+            }
+        }
+
+        
+    }
+}

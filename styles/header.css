@@ -21,6 +21,7 @@
 
         p{
             font: var(--text-sm);
+            color: var(--text-secondary-color);
         }
 
         .texto{

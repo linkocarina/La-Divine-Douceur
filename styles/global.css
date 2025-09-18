@@ -8,7 +8,7 @@
 
 :root{
     --text-primary-color: #586473;
-    --text-secondary-color: #B8BBBF;
+    --text-secondary-color: #9c9fa3;
 
     --gradient-color1: #DF397F;
     --gradient-color2: #D02077;
@@ -16,6 +16,8 @@
 
     --bg1-color: #F2EBEE;
     --bg2-color: #FEEFF5;
+
+    --border-color: #b4afb1c5;
 
     --color-primary: #E91E63;
     --color-secondary: #F8BBD9;
@@ -26,6 +28,8 @@
 
     --h1: 800 2rem/1.5 var(--font-family-logo);
     --text-lg: 800 3.3rem/normal var(--font-family-text);
+    --text-lg-bold: 600 2.5rem/normal var(--font-family-text);
+    --text-preco: 800 1.5rem/normal var(--font-family-text);
     --text-md: 600 1rem/normal var(--font-family-text);
     --text-sm: 300 .875rem/normal var(--font-family-text);
     --text-sm-bolder: 600 .875rem/normal var(--font-family-text);
@@ -35,6 +39,7 @@
 }
 
 body{
-    overflow: hidden;
     background-color: var(--bg1-color);
+    overflow-y: none;
+    overflow-x: hidden;
 }

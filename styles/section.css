@@ -1,3 +1,12 @@
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 section{
     
     .hero {
@@ -21,16 +30,18 @@ section{
 
             p{
                 font: var(--text-sm);
+                color: var(--text-primary-color);
             }
 }
 
 .hero-img{
-    
+    transform: translateY(-4.6875rem);
     padding-right: 12rem;
     padding-top: 8.5rem;
 }
 
- img {
+.hero-img  img {
+
   max-width: 400px;
   height: auto;
   border-radius: 50%;
@@ -56,4 +67,11 @@ section{
             
 
         }
+        
+        
+    }
+
+
+    .girar{
+        animation: girar 90s linear infinite;
     }
