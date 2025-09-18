@@ -1,4 +1,5 @@
 #gallery{
+    
     background-color: var(--bg2-color);
 
     header{
@@ -21,6 +22,7 @@
     }
 
     figure{
+        padding-bottom: 8.5rem;
         display: grid;
         grid-template-areas: 
         "div div div"
