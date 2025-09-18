@@ -25,14 +25,16 @@
     --font-family-text: 'Poppins', sans-serif;
 
     --h1: 800 2rem/1.5 var(--font-family-logo);
-    --text-lg: 800 2.5rem/normal var(--font-family-text);
+    --text-lg: 800 3.3rem/normal var(--font-family-text);
     --text-md: 600 1rem/normal var(--font-family-text);
-    --text-sm: 200 .875rem/normal var(--font-family-text);
+    --text-sm: 300 .875rem/normal var(--font-family-text);
+    --text-sm-bolder: 600 .875rem/normal var(--font-family-text);
     --text-a: 400 .875rem/normal var(--font-family-text);
     --tex-xs: 100 .75rem/normal var(--font-family-text);
 
 }
 
 body{
+    overflow: hidden;
     background-color: var(--bg1-color);
 }
