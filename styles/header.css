@@ -1,0 +1,52 @@
+#app{
+    padding: 1rem 1.125rem;
+    width: 100vw;
+    height: auto;
+    background-color: aliceblue;
+    
+    & .intro-container{
+        display: flex;
+        gap: .875rem;
+        align-items: center;
+        
+
+        .logo{
+             width: 80px;
+        }
+    
+        h1{
+            font: var(--h1);
+            color: var(--color-primary);
+        }
+
+        p{
+            font: var(--text-sm);
+        }
+
+        .texto{
+            padding-right: 26rem;
+        }
+
+        .navegation{
+            display: flex;
+            gap: 1.375rem;
+            justify-content: center;
+
+            a{
+                font: var(--text-a);
+                text-decoration: none;
+                color: var(--text-primary-color);
+                
+            }
+            a:hover{
+                text-decoration: underline;
+                color: var(--color-primary);
+                font: var(--text-a);
+            }
+        }
+
+    }
+
+    
+}
+

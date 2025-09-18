@@ -7,6 +7,9 @@
 }
 
 :root{
+    --text-primary-color: #586473;
+    --text-secondary-color: #B8BBBF;
+
     --gradient-color1: #DF397F;
     --gradient-color2: #D02077;
     --gradient-color3: #9B239F;
@@ -18,13 +21,14 @@
     --color-secondary: #F8BBD9;
     --color-contrast: #8E24AA;
 
-    --font-family-logo: 'Leckerli One', sans-serif;
+    --font-family-logo: 'Dancing Script', sans-serif;
     --font-family-text: 'Poppins', sans-serif;
 
-    --h1: 800 1rem/1.5 var(--font-family-logo);
+    --h1: 800 2rem/1.5 var(--font-family-logo);
     --text-lg: 800 2.5rem/normal var(--font-family-text);
     --text-md: 600 1rem/normal var(--font-family-text);
-    --text-sm: 100 .875rem/normal var(--font-family-text);
+    --text-sm: 200 .875rem/normal var(--font-family-text);
+    --text-a: 400 .875rem/normal var(--font-family-text);
     --tex-xs: 100 .75rem/normal var(--font-family-text);
 
 }
