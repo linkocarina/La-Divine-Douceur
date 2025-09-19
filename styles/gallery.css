@@ -28,6 +28,8 @@
         "div div div"
         "div div div";
         gap: 1.5rem;
+        justify-content: space-around;
+
 
         div{
             border-radius: .75rem;
@@ -35,7 +37,6 @@
             border: 0.5px solid var(--border-color) ;
             width: 29rem;
             height: 23rem;
-            margin-left: 12%;
 
             img{
             
