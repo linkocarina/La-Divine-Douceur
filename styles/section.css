@@ -12,8 +12,8 @@ section{
     .hero {
         
   display: flex;
-  justify-content: space-between; /* texto à esquerda e imagem à direita */
-  align-items: center;           /* centraliza verticalmente */
+  justify-content: space-between; 
+  align-items: center;           
   box-sizing: border-box;
 
   
